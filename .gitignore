@@ -1,0 +1,20 @@
+# Build output
+Debug/
+Release/
+
+# IDE / editor
+.settings/
+.cproject
+.project
+*.launch
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Drivers (large, from STM32CubeMX — can be regenerated)
+Drivers/
+
+# TinyUSB library (add as submodule instead)
+lib/tinyusb/
