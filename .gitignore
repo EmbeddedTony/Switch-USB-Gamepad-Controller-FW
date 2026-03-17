@@ -16,5 +16,4 @@ Thumbs.db
 # Drivers (large, from STM32CubeMX — can be regenerated)
 Drivers/
 
-# TinyUSB library (add as submodule instead)
-lib/tinyusb/
+# TinyUSB library is tracked as a git submodule
