@@ -283,8 +283,8 @@ int main(void)
         report.input.connection_info = 0x00;
         report.input.charging = 1;
 
-        // Sticks at center (12-bit: 0x7FF = 2047)
-        switch_analog_set_xy(&report.input.left_stick,  0x7FF, 0x7FF);
+        // Left stick held up-center, right stick at center (12-bit: 0x7FF = 2047)
+        switch_analog_set_xy(&report.input.left_stick,  0x7FF, 0xFFF);
         switch_analog_set_xy(&report.input.right_stick, 0x7FF, 0x7FF);
 
         // Vibrator report
